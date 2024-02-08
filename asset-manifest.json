@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_shop/static/css/main.c2b98514.css",
-    "main.js": "/react_shop/static/js/main.cadcef7b.js",
+    "main.css": "/react_shop/static/css/main.df12838a.css",
+    "main.js": "/react_shop/static/js/main.f8ee5738.js",
     "static/js/592.bca51d61.chunk.js": "/react_shop/static/js/592.bca51d61.chunk.js",
     "static/media/Dolce_&_Gabanna.png": "/react_shop/static/media/Dolce_&_Gabanna.8b3a07a25a69806be71a.png",
     "static/media/Dolce_&_GabannaQ.webp": "/react_shop/static/media/Dolce_&_GabannaQ.b96af9d19530fe13e5a1.webp",
@@ -10,14 +10,13 @@
     "static/media/OJJO.svg": "/react_shop/static/media/OJJO.cbb27a662652392402263d4d81d88a41.svg",
     "static/media/loop.svg": "/react_shop/static/media/loop.7d343647f5a3c8254d6ef67b242c6f5c.svg",
     "index.html": "/react_shop/index.html",
-    "static/media/user_icon.svg": "/react_shop/static/media/user_icon.7cd98b64041ec46ed00eed57ad4d0a63.svg",
     "static/media/heart-icon.svg": "/react_shop/static/media/heart-icon.1302446c9419b69b2de9facdd44f4d26.svg",
-    "main.c2b98514.css.map": "/react_shop/static/css/main.c2b98514.css.map",
-    "main.cadcef7b.js.map": "/react_shop/static/js/main.cadcef7b.js.map",
+    "main.df12838a.css.map": "/react_shop/static/css/main.df12838a.css.map",
+    "main.f8ee5738.js.map": "/react_shop/static/js/main.f8ee5738.js.map",
     "592.bca51d61.chunk.js.map": "/react_shop/static/js/592.bca51d61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2b98514.css",
-    "static/js/main.cadcef7b.js"
+    "static/css/main.df12838a.css",
+    "static/js/main.f8ee5738.js"
   ]
 }
