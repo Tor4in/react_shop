@@ -1,37 +1,27 @@
 import "./App.css";
-import Cart from "./cart";
 import Header from "./header";
 import React, { useState } from "react";
-import jsonData from "./data.json";
+// import jsonData from "./data.json";
 import "./cart.css";
 import c from "./cart.module.css";
 import "react-range-slider-input/dist/style.css";
 import Slider from "react-slider";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
-let data = []
-jsonData.forEach(e => {
-	data.push(e)
-});
+import CartList from "./cartList";
+
+
+
 // import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 // import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 export default function App() {
-  let [values, setValues] = useState([0, 3000]);
+	let [values, setValues] = useState([0, 3000]);
 	let [category, setCategory] = useState({
 		"brand": "Бренд",
 		"price": values,
 		"who": "Для кого",
 		"sort": "Най популярніші" 
 	})
-	let sortData = () =>{
-		let newData = []
-		data.forEach(e => {
-			if(category.brand === 'Бренд' && parseInt(e.price) >= category.price[0] && parseInt(e.price) <= category.price[1]){
-				newData.push(e)
-			}else if(category.brand === e.brand && parseInt(e.price) >= category.price[0] && parseInt(e.price) <= category.price[1]) newData.push(e)
-		});
-		return newData
-	}
 	let change = (cace, to)=>{
 		switch (cace){
 			case "b":
@@ -55,6 +45,7 @@ export default function App() {
 	}
   return (
     <>
+
       <Header />
       <div className={c.category}>
         <DropdownButton
@@ -137,13 +128,12 @@ export default function App() {
           </Dropdown.Item>
           <Dropdown.Item eventKey="4" onClick={()=>change("s", "Най новіші")}>
             Най новіші
-          </Dropdown.Item>
+          </Dropdown.Item>``
         </DropdownButton>
        
       </div>
       <div className={c.cartWraper}>
-        {sortData().length > 0 ?  sortData().map(e=><Cart key={e.index} el={e}/>): <p>Жодного товару не знайдено</p>}
-
+        <CartList c={category}/>
       </div>
     </>
   );

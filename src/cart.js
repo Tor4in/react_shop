@@ -1,5 +1,4 @@
 import c from "./cart.module.css";
-// import Dolce__Gabanna from "./images/carts/Dolce_&_Gabanna.png"
 export default function Cart(props) {
   return (
     <div className={c.cart}>

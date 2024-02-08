@@ -5,19 +5,6 @@ import { faUser, faCartShopping, faMagnifyingGlass, faBurger } from "@fortawesom
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import React, { useState } from "react";
 
-
-// let show = ["Красовки", "Духи", "Прикраси", "Кошельок", "Одяг", "Очки", "Кольца", "Майки"]
-// let pick = ()=>{
-// 	let out = []
-// 	while(out.length < 5){
-// 		let p = show[Math.round(Math.random()*show.length)]
-// 		if(Math.random() < 0.5 && !out.includes(p) && p != undefined){
-// 			out.push(p)
-// 		}
-// 	}
-	
-// 	return out
-// }
 let Loop = ()=>{
 	return (
 		<>
