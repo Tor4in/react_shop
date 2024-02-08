@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/react_shop/static/css/main.df12838a.css",
-    "main.js": "/react_shop/static/js/main.f8ee5738.js",
+    "main.css": "/react_shop/static/css/main.f2894227.css",
+    "main.js": "/react_shop/static/js/main.15fafae1.js",
     "static/js/592.bca51d61.chunk.js": "/react_shop/static/js/592.bca51d61.chunk.js",
     "static/media/Dolce_&_Gabanna.png": "/react_shop/static/media/Dolce_&_Gabanna.8b3a07a25a69806be71a.png",
     "static/media/Dolce_&_GabannaQ.webp": "/react_shop/static/media/Dolce_&_GabannaQ.b96af9d19530fe13e5a1.webp",
     "static/media/THE_ONLY_ONE.jpg": "/react_shop/static/media/THE_ONLY_ONE.6bde934d74aedb8e2d2f.jpg",
     "static/media/Nike_airforce_one_07.webp": "/react_shop/static/media/Nike_airforce_one_07.30fa85a78a4d8e59b450.webp",
     "static/media/OJJO.svg": "/react_shop/static/media/OJJO.cbb27a662652392402263d4d81d88a41.svg",
-    "static/media/loop.svg": "/react_shop/static/media/loop.7d343647f5a3c8254d6ef67b242c6f5c.svg",
     "index.html": "/react_shop/index.html",
-    "static/media/heart-icon.svg": "/react_shop/static/media/heart-icon.1302446c9419b69b2de9facdd44f4d26.svg",
-    "main.df12838a.css.map": "/react_shop/static/css/main.df12838a.css.map",
-    "main.f8ee5738.js.map": "/react_shop/static/js/main.f8ee5738.js.map",
+    "main.f2894227.css.map": "/react_shop/static/css/main.f2894227.css.map",
+    "main.15fafae1.js.map": "/react_shop/static/js/main.15fafae1.js.map",
     "592.bca51d61.chunk.js.map": "/react_shop/static/js/592.bca51d61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df12838a.css",
-    "static/js/main.f8ee5738.js"
+    "static/css/main.f2894227.css",
+    "static/js/main.15fafae1.js"
   ]
 }
