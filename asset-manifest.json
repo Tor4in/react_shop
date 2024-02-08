@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/react_shop/static/css/main.f2894227.css",
-    "main.js": "/react_shop/static/js/main.15fafae1.js",
+    "main.css": "/react_shop/static/css/main.9db974e0.css",
+    "main.js": "/react_shop/static/js/main.ce087068.js",
     "static/js/592.bca51d61.chunk.js": "/react_shop/static/js/592.bca51d61.chunk.js",
+    "static/media/default.jpg": "/react_shop/static/media/default.b5ce72898a394de2fe7c.jpg",
     "static/media/Dolce_&_Gabanna.png": "/react_shop/static/media/Dolce_&_Gabanna.8b3a07a25a69806be71a.png",
     "static/media/Dolce_&_GabannaQ.webp": "/react_shop/static/media/Dolce_&_GabannaQ.b96af9d19530fe13e5a1.webp",
     "static/media/THE_ONLY_ONE.jpg": "/react_shop/static/media/THE_ONLY_ONE.6bde934d74aedb8e2d2f.jpg",
     "static/media/Nike_airforce_one_07.webp": "/react_shop/static/media/Nike_airforce_one_07.30fa85a78a4d8e59b450.webp",
     "static/media/OJJO.svg": "/react_shop/static/media/OJJO.cbb27a662652392402263d4d81d88a41.svg",
     "index.html": "/react_shop/index.html",
-    "main.f2894227.css.map": "/react_shop/static/css/main.f2894227.css.map",
-    "main.15fafae1.js.map": "/react_shop/static/js/main.15fafae1.js.map",
+    "main.9db974e0.css.map": "/react_shop/static/css/main.9db974e0.css.map",
+    "main.ce087068.js.map": "/react_shop/static/js/main.ce087068.js.map",
     "592.bca51d61.chunk.js.map": "/react_shop/static/js/592.bca51d61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2894227.css",
-    "static/js/main.15fafae1.js"
+    "static/css/main.9db974e0.css",
+    "static/js/main.ce087068.js"
   ]
 }
