@@ -1,17 +1,37 @@
 import h from "./header.module.css";
 import logo from "./images/OJJO.svg";
-import loop from "./images/loop.svg";
-import heart_icon from "./images/heart-icon.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faCartShopping, faMagnifyingGlass, faBurger } from "@fortawesome/free-solid-svg-icons";
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { useState } from "react";
+import React, { useState } from "react";
+
+
+// let show = ["Красовки", "Духи", "Прикраси", "Кошельок", "Одяг", "Очки", "Кольца", "Майки"]
+// let pick = ()=>{
+// 	let out = []
+// 	while(out.length < 5){
+// 		let p = show[Math.round(Math.random()*show.length)]
+// 		if(Math.random() < 0.5 && !out.includes(p) && p != undefined){
+// 			out.push(p)
+// 		}
+// 	}
+	
+// 	return out
+// }
+let Loop = ()=>{
+	return (
+		<>
+		<FontAwesomeIcon icon={faMagnifyingGlass}/>
+		пошук 
+		</>
+  );
+}
+
 let Ul = ()=>{
 	return (
     <ul className={h.user_ul}>
       <li>
-        <FontAwesomeIcon icon={faMagnifyingGlass} />
-        Поиск
+        <Loop/>
       </li>
       <li>Вход/Регистрация</li>
       <li>
@@ -21,7 +41,15 @@ let Ul = ()=>{
     </ul>
   );
 }
-
+let Pages = ()=>{
+	return (
+    <ul className={h.pages}>
+      <li>Контрагентам</li>
+      <li>Дизайнерам</li>
+      <li>Вакансии</li>
+    </ul>
+  );
+}
 
 export default function Header() {
 	const [show, setShow] = useState(false);
@@ -32,24 +60,24 @@ export default function Header() {
   return (
     <header>
       <div className={h.wraper}>
-        <ul className={h.pages}>
-          <li>Контрагентам</li>
-          <li>Дизайнерам</li>
-          <li>Вакансии</li>
-        </ul>
+        {!burger ? <Pages /> : false}
         <img src={logo} alt="logo" />
-        {!burger ? <Ul/> : <div className={h.burger}>
-        <FontAwesomeIcon icon={faBurger} onClick={handleShow} />
-				<Offcanvas show={show} onHide={handleClose} placement="end">
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
-        </Offcanvas.Body>
-      </Offcanvas>
-					</div>}
+        {!burger ? (
+          <Ul />
+        ) : (
+          <div className={h.burger}>
+            <FontAwesomeIcon icon={faBurger} onClick={handleShow} />
+            <Offcanvas show={show} onHide={handleClose} placement="end">
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                <Ul />
+                <Pages />
+              </Offcanvas.Body>
+            </Offcanvas>
+          </div>
+        )}
       </div>
     </header>
   );

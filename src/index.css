@@ -32,6 +32,15 @@ ul{
 	margin-top: 10px;
 
 }
+.dropdown-menu.show{
+	width: 150% !important;
+}
+.dropdown-menu  input{
+	width: 80% !important;
+}
+.dropdown-menu ul a{
+	color: #333;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

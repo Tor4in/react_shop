@@ -34,10 +34,16 @@ header{
 }
 .wraper > img{
 	height: 50%;
+	grid-column-start: 2;
 }
 .burger{
 	color: white;
 	font-size: 2rem;
+	grid-column-start: 3;
+}
+.find a{
+	color: white ;
+	text-decoration: none;
 }
 @media (width < 700px){
 	.wraper{
