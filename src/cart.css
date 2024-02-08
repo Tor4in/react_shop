@@ -1,0 +1,35 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.btn_brand, .btn_brand:hover, .btn.show, .btn:first-child:active{
+	background-color: transparent !important;
+	border: none !important;
+	color: #333 !important;
+	border-bottom: 1px solid black !important;
+	transition: .5s !important;
+	border-radius: 0 !important;
+}
+.dropdown-menu.show{
+	width: 250px;
+}
+.dropdown-item{
+	padding: 5px;
+}
+/*  */
+.btn_brand:hover{
+	background-color: #b9b9b912 !important;
+}
+.btn:first-child:active{
+	background-color: #b9b9b924  !important;
+}
+.slider{
+	width: 100%;
+	height: 10px;
+	background-color: #d2a5a576;
+	border-radius: 50px;
+}
+.slider .thumb{
+	height:  100%;
+	border-radius: 50%;
+	aspect-ratio: 1;
+	background-color: #d54141;
+
+}

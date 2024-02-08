@@ -1,0 +1,67 @@
+[
+	{
+		"index": 0,
+		"image": "Dolce_&_Gabanna.png",
+		"title": "Подвеска",
+		"name": "Dolce & Gabanna",
+		"price": "1700$",
+		"brand": "Dolce & Gabanna" 
+	},
+	{
+		"index": 1,
+		"image": "THE_ONLY_ONE.jpg",
+		"title": "Духи",
+		"name": "THE ONLY ONE DOLCE & GABBANA EDP (100 ML) WOMENS PERFUME",
+		"price": "125$",
+		"brand": "Dolce & Gabanna" 
+	},
+	{
+		"index": 2,
+		"image": "Dolce_&_GabannaQ.webp",
+		"title": "Духи",
+		"name": "Dolce&Gabbana Q 100 мл ",
+		"price": "100$",
+		"brand": "Dolce & Gabanna" 
+	},
+	{
+		"index": 3,
+		"image": "Nike_airforce_one_07.webp",
+		"title": "Красовки",
+		"name": "Nike Air Force 1 07 FB3355-200",
+		"price": "130$",
+		"brand": "Nike" 
+	},
+	{
+		"index": 4,
+		"image": "Dolce_&_Gabanna.png",
+		"title": "Подвеска",
+		"name": "Dolce & Gabanna",
+		"price": "1700$",
+		"brand": "Dolce & Gabanna" 
+	},
+	{
+		"index": 5,
+		"image": "Dolce_&_Gabanna.png",
+		"title": "Подвеска",
+		"name": "Dolce & Gabanna",
+		"price": "1700$",
+		"brand": "Dolce & Gabanna" 
+	},
+	{
+		"index": 6,
+		"image": "Dolce_&_Gabanna.png",
+		"title": "Чіхол",
+		"name": "Case",
+		"price": "170$",
+		"brand": "Gucce" 
+	},
+	{
+		"index": 7,
+		"image": "Dolce_&_Gabanna.png",
+		"title": "Кошельок",
+		"name": "Wallet",
+		"price": "1400$",
+		"brand": "Gucce" 
+	}
+	
+]
