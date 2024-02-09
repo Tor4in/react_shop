@@ -1,0 +1,5 @@
+{
+	"serverPort" : 5145,
+	"dbUrl": "mongodb+srv://vitaliktar4enets:T7yf3yRbuytxaB79@register.r0phltj.mongodb.net/?retryWrites=true&w=majority",
+	"secretkey": "ebmdl-4fdge-fks39"
+}
