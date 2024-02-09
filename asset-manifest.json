@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_shop/static/css/main.9db974e0.css",
-    "main.js": "/react_shop/static/js/main.ce087068.js",
+    "main.js": "/react_shop/static/js/main.ef833f49.js",
     "static/js/592.bca51d61.chunk.js": "/react_shop/static/js/592.bca51d61.chunk.js",
     "static/media/default.jpg": "/react_shop/static/media/default.b5ce72898a394de2fe7c.jpg",
     "static/media/Dolce_&_Gabanna.png": "/react_shop/static/media/Dolce_&_Gabanna.8b3a07a25a69806be71a.png",
@@ -11,11 +11,11 @@
     "static/media/OJJO.svg": "/react_shop/static/media/OJJO.cbb27a662652392402263d4d81d88a41.svg",
     "index.html": "/react_shop/index.html",
     "main.9db974e0.css.map": "/react_shop/static/css/main.9db974e0.css.map",
-    "main.ce087068.js.map": "/react_shop/static/js/main.ce087068.js.map",
+    "main.ef833f49.js.map": "/react_shop/static/js/main.ef833f49.js.map",
     "592.bca51d61.chunk.js.map": "/react_shop/static/js/592.bca51d61.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9db974e0.css",
-    "static/js/main.ce087068.js"
+    "static/js/main.ef833f49.js"
   ]
 }
